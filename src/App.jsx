@@ -1,5 +1,5 @@
-import PaskaMobileDashboard from './PaskaMobileDashboard'
+import ExecutiveMobileDashboard from './ExecutiveMobileDashboard'
 
 export default function App() {
-  return <PaskaMobileDashboard />
+  return <ExecutiveMobileDashboard />
 }
