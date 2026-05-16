@@ -3,7 +3,10 @@ import Papa from 'papaparse'
 export default function CSVUploader({ onData }) {
 
   const handleFile = (e) => {
+
     const file = e.target.files[0]
+
+    if (!file) return
 
     Papa.parse(file, {
       header: true,
